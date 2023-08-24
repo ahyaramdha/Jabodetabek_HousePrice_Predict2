@@ -20,11 +20,10 @@ furnishing_mapping = {'unfurnished': 0, 'semi furnished': 1, 'furnished': 2, 'ba
 def main():
     st.title("Prediksi Harga Rumah Di Tangerang")
     st.write("Sebelum melakukan prediksi, dapat dilihat dahulu gambar distribusi selisih nilai\nprediksi dengan nilai sebenarnya. Hal ini ditujukan untuk pengguna dapat\nmemperkirakan besar kesalahan prediksi dari model ini.")
-    st.write("Jika tidak terdapat wilayah yang Anda mau, mohon dimaafkan karena data kurang lengkap. Anda dapat memilih daerah terdekat.")
-
     #masukin gambar
     st.image("Distribution_of_Residuals_by_Ridge_Regression_in_Tangerang.jpg", use_column_width=True)
     st.caption('Selisih harga prediksi dengan harga aktual dari model (Regresi Linear)')
+    st.write("Jika tidak terdapat wilayah yang Anda mau, mohon dimaafkan karena data kurang lengkap. Anda dapat memilih daerah terdekat.")
 
     # Get user inputs
     kamar_tidur = st.number_input("Jumlah Kamar Tidur")
