@@ -23,7 +23,7 @@ def main():
     
     #masukin gambar
     st.image("Distribution_of_Residuals_by_Ridge_Regression_in_Bekasi.jpg", use_column_width=True)
-    st.caption('Selisih harga prediksi dengan harga aktual dari model (Regresi Linear)')
+    st.caption('Selisih harga prediksi dengan harga aktual dari model (Regresi Ridge)')
     st.write("Jika tidak terdapat wilayah yang Anda mau, mohon dimaafkan karena data kurang lengkap. Anda dapat memilih daerah terdekat.")
 
     # Get user inputs
@@ -91,6 +91,7 @@ def main():
         #st.write("Hasil Prediksi Harga Rumah:")
         st.write("Prediksi harga rumah: Rp.", predicted_price_original.astype(int).round(-3))
         st.write("Terimakasih sudah mencoba web app prediksi ini, jika kurang sesuai, harap maklum.")
+        st.write("Sumber: Kaggle & Rumah123.com")
 
 if __name__ == "__main__":
     main()
