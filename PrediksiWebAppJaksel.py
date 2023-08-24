@@ -18,7 +18,7 @@ furnishing_mapping = {'unfurnished': 0, 'semi furnished': 1, 'furnished': 2, 'ba
 
 # Streamlit web app
 def main():
-    st.title("Prediksi Harga Rumah Di Bekasi")
+    st.title("Prediksi Harga Rumah Di Jakarta Selatan")
     st.write("Sebelum melakukan prediksi, dapat dilihat dahulu gambar distribusi selisih nilai\nprediksi dengan nilai sebenarnya. Hal ini ditujukan untuk pengguna dapat\nmemperkirakan besar kesalahan prediksi dari model ini.")
 
     #masukin gambar
