@@ -90,6 +90,7 @@ def main():
         #st.write("Hasil Prediksi Harga Rumah:")
         st.write("Prediksi harga rumah: Rp.", predicted_price_original.astype(int).round(-3))
         st.write("Terimakasih sudah mencoba web app prediksi ini, jika kurang sesuai, harap maklum.")
+        st.write("Sumber: Kaggle & Rumah123.com")
 
 if __name__ == "__main__":
     main()
